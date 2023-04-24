@@ -8,6 +8,7 @@ const Dogs = () => {
 
     const location = useLocation();
     // console.log(location);
+    console.log(setDogs);
     const [searchParams, setSearchParams] = useSearchParams();
     const dogId = searchParams.get('dogId') ?? '';
     // console.log(searchParams);
